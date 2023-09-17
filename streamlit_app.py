@@ -8,6 +8,7 @@ my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 my_data_row = my_cur.fetchone()
 streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
+select * from pc_rivery_db.public.fruit_load_list
 
 streamlit.title('Esto es una prueba')
 streamlit.header('Breakfast Menu')
